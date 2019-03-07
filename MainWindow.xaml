@@ -1,0 +1,37 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BBT_calculator_021419"
+        mc:Ignorable="d"
+        Title="Calculator" Height="296" Width="201" Background="#FF46211A">
+    <Grid x:Name="ui_facade" Margin="0,0,2,25">
+        <Button x:Name="key_decimal" Content="." HorizontalAlignment="Left" Margin="102,205,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="0.4,3.6" FontWeight="Bold" Background="#FFBA5536" Foreground="White" BorderBrush="White"/>
+        <TextBox x:Name="ui_Display" HorizontalAlignment="Left" Height="22" Margin="24,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" IsEnabled="False" AutoWordSelection="True" FontFamily="Arial" TextAlignment="Right" Background="Black" CaretBrush="Black" SelectionBrush="{x:Null}" Foreground="White" Text=" ">
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="White"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Button x:Name="opp_equal" Content="=" HorizontalAlignment="Left" Margin="140,205,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="opp_div" Content="÷" HorizontalAlignment="Left" Margin="138,77,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" Foreground="White" BorderBrush="White" FontWeight="Bold"/>
+        <Button x:Name="opp_sub" Content="-" HorizontalAlignment="Left" Margin="138,138,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" BorderBrush="White" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="opp_add" Content="+" HorizontalAlignment="Left" Margin="138,172,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" BorderBrush="White" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="opp_mul" Content="*" HorizontalAlignment="Left" Margin="138,110,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" BorderBrush="White" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="opp_pow" Content="pow" HorizontalAlignment="Left" Margin="100,77,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" BorderBrush="White" Foreground="White"/>
+        <Button x:Name="opp_per" Content="%" HorizontalAlignment="Left" Margin="64,77,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="opp_minus" Content="-/+" HorizontalAlignment="Left" Margin="24,77,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" FontWeight="Bold" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="key_ClearAll" Content="C" HorizontalAlignment="Left" Margin="24,205,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Foreground="White" FontWeight="Bold" Background="#FFBA5536" BorderBrush="White"/>
+        <Button x:Name="key_1" Content="1" HorizontalAlignment="Left" Margin="24,172,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_0" Content="0" HorizontalAlignment="Left" Margin="64,206,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" BorderBrush="#FF707070" Foreground="White"/>
+        <Button x:Name="key_2" Content="2" HorizontalAlignment="Left" Margin="64,172,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_3" Content="3" HorizontalAlignment="Left" Margin="102,172,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_4" Content="4" HorizontalAlignment="Left" Margin="24,138,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_5" Content="5" HorizontalAlignment="Left" Margin="64,138,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_6" Content="6" HorizontalAlignment="Left" Margin="102,138,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_7" Content="7" HorizontalAlignment="Left" Margin="24,110,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" BorderBrush="#FF707070" Foreground="White"/>
+        <Button x:Name="key_8" Content="8" HorizontalAlignment="Left" Margin="64,110,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+        <Button x:Name="key_9" Content="9" HorizontalAlignment="Left" Margin="102,110,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.4,3.6" Height="20" Background="#FFBA5536" Foreground="White"/>
+
+    </Grid>
+</Window>
